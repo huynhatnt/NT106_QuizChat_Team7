@@ -42,7 +42,7 @@
             this.btnStart.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStart.Location = new System.Drawing.Point(480, 141);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(144, 75);
+            this.btnStart.Size = new System.Drawing.Size(140, 70);
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = "Bắt đầu";
             this.btnStart.UseVisualStyleBackColor = false;
@@ -54,7 +54,7 @@
             this.btnTutorial.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTutorial.Location = new System.Drawing.Point(554, 248);
             this.btnTutorial.Name = "btnTutorial";
-            this.btnTutorial.Size = new System.Drawing.Size(144, 74);
+            this.btnTutorial.Size = new System.Drawing.Size(140, 70);
             this.btnTutorial.TabIndex = 1;
             this.btnTutorial.Text = "Hướng dẫn";
             this.btnTutorial.UseVisualStyleBackColor = false;
@@ -66,7 +66,7 @@
             this.btnExit.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(629, 351);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(144, 75);
+            this.btnExit.Size = new System.Drawing.Size(140, 70);
             this.btnExit.TabIndex = 2;
             this.btnExit.Text = "Thoát";
             this.btnExit.UseVisualStyleBackColor = false;
