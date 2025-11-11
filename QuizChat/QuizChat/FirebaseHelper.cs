@@ -22,7 +22,7 @@ namespace QuizChatApp
         {
             string path = AppDomain.CurrentDomain.BaseDirectory + "firebase-config.json";
             Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", path);
-            firestoreDb = FirestoreDb.Create("quizchatuit"); // thay nếu projectId khác
+            firestoreDb = FirestoreDb.Create("quizchat-6d2ae"); // thay nếu projectId khác
         }
 
         public static async Task<AuthResult> RegisterUserAsync(string username, string email, string password)
