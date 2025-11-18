@@ -35,9 +35,10 @@
             // 
             // btnQuizManager
             // 
-            this.btnQuizManager.Location = new System.Drawing.Point(94, 162);
+            this.btnQuizManager.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuizManager.Location = new System.Drawing.Point(112, 168);
             this.btnQuizManager.Name = "btnQuizManager";
-            this.btnQuizManager.Size = new System.Drawing.Size(99, 52);
+            this.btnQuizManager.Size = new System.Drawing.Size(150, 80);
             this.btnQuizManager.TabIndex = 0;
             this.btnQuizManager.Text = "Quiz Manager";
             this.btnQuizManager.UseVisualStyleBackColor = true;
@@ -45,9 +46,10 @@
             // 
             // btnRoomManager
             // 
-            this.btnRoomManager.Location = new System.Drawing.Point(259, 162);
+            this.btnRoomManager.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRoomManager.Location = new System.Drawing.Point(316, 168);
             this.btnRoomManager.Name = "btnRoomManager";
-            this.btnRoomManager.Size = new System.Drawing.Size(98, 52);
+            this.btnRoomManager.Size = new System.Drawing.Size(150, 80);
             this.btnRoomManager.TabIndex = 1;
             this.btnRoomManager.Text = "Room Manager";
             this.btnRoomManager.UseVisualStyleBackColor = true;
@@ -55,9 +57,10 @@
             // 
             // btnMonitor
             // 
-            this.btnMonitor.Location = new System.Drawing.Point(412, 162);
+            this.btnMonitor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMonitor.Location = new System.Drawing.Point(518, 168);
             this.btnMonitor.Name = "btnMonitor";
-            this.btnMonitor.Size = new System.Drawing.Size(96, 52);
+            this.btnMonitor.Size = new System.Drawing.Size(150, 80);
             this.btnMonitor.TabIndex = 2;
             this.btnMonitor.Text = "Monitor";
             this.btnMonitor.UseVisualStyleBackColor = true;
@@ -67,12 +70,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnMonitor);
             this.Controls.Add(this.btnRoomManager);
             this.Controls.Add(this.btnQuizManager);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "Dashboard";
             this.ResumeLayout(false);
 
         }

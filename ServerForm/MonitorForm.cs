@@ -38,13 +38,10 @@ namespace ServerForm.Forms
             {
                 roomRepo.ListenRoom(roomId, room =>
                 {
-                    // Khi listener nhận được dữ liệu lần đầu tiên => coi như kết nối thành công
                     Invoke(new Action(() =>
                     {
-                        // Thông báo kết nối thành công (chỉ hiển thị 1 lần)
                         lblStatus.Text = $"Connected to Room: {roomId}";
 
-                        // Cập nhật DataGrid
                         dataGridPlayers.Rows.Clear();
                         if (room.players != null)
                         {
@@ -62,7 +59,6 @@ namespace ServerForm.Forms
                     }));
                 });
 
-                // Nếu ListenRoom không ném lỗi ngay lập tức, coi như đăng ký listener thành công
                 lblStatus.Text = "Listening for updates...";
             }
             catch (Exception ex)
