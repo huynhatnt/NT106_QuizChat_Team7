@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "System.Linq.Async/7.0.0": {
+        "dependencies": {
+          "System.Interactive.Async": "1.0.0"
+        },
+        "runtime": {
+          "System.Linq.Async.dll": {}
+        }
+      },
+      "System.Interactive.Async/1.0.0": {
+        "runtime": {
+          "System.Interactive.Async.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.45496"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.Linq.Async/7.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Interactive.Async/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

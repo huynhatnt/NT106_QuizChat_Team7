@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "System.Interactive.Async/7.0.0": {
+        "dependencies": {
+          "System.Linq.AsyncEnumerable": "10.0.0"
+        },
+        "runtime": {
+          "System.Interactive.Async.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/10.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
+          }
+        }
+      },
+      "Microsoft.Bcl.Memory/10.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.Memory.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
+          }
+        }
+      },
+      "System.Linq.AsyncEnumerable/10.0.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "10.0.0",
+          "Microsoft.Bcl.Memory": "10.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Linq.AsyncEnumerable.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.1.2": {
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.100.225.20307"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.Interactive.Async/7.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Bcl.AsyncInterfaces/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vFuwSLj9QJBbNR0NeNO4YVASUbokxs+i/xbuu8B+Fs4FAZg5QaFa6eGrMaRqTzzNI5tAb97T7BhSxtLckFyiRA==",
+      "path": "microsoft.bcl.asyncinterfaces/10.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.10.0.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl.Memory/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a5PdIQh+01OrOViDfJA0zfo2ty5ruSxpR+4ZOkY1nGr0ybvm3XKxckxKp0BVR9ZtVIauQscgHABFysUJYOqnsg==",
+      "path": "microsoft.bcl.memory/10.0.0",
+      "hashPath": "microsoft.bcl.memory.10.0.0.nupkg.sha512"
+    },
+    "System.Linq.AsyncEnumerable/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t1jnw7So3eeZVemma+82w+Y394oPX1bebkr3gY3IzyotP3kKC/JWwGRz2WssoUFODWWvkACT2hXliumgCHu9LQ==",
+      "path": "system.linq.asyncenumerable/10.0.0",
+      "hashPath": "system.linq.asyncenumerable.10.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2hBr6zdbIBTDE3EhK7NSVNdX58uTK6iHW/P/Axmm9sl1xoGSLqDvMtpecn226TNwHByFokYwJmt/aQQNlO5CRw==",
+      "path": "system.runtime.compilerservices.unsafe/6.1.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.1.2.nupkg.sha512"
+    }
+  }
+}
