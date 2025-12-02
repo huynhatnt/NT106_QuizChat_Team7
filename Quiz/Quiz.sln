@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerForm", "C:\Users\phamdangson\Downloads\NT106.Q13_UIT_N7_Quiz\NT106.Q13_UIT_N7_Quiz\ServerForm\ServerForm.csproj", "{088D9E22-95ED-4F5E-B024-C49224E1878E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{088D9E22-95ED-4F5E-B024-C49224E1878E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088D9E22-95ED-4F5E-B024-C49224E1878E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088D9E22-95ED-4F5E-B024-C49224E1878E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088D9E22-95ED-4F5E-B024-C49224E1878E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {765D3892-1A6A-41C1-95A3-D267467D666F}
+	EndGlobalSection
+EndGlobal
